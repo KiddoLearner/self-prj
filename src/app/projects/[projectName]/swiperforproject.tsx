@@ -35,7 +35,7 @@ function SwiperingForProject({decodedproject}: selectedproject){
                 {decodedproject!.detailDescription.map((item,index) => (
                     <SwiperSlide key={index}>
                     <div className="swipercontent">
-                        {/*<h2 className="swipercontent-item">{item.title}</h2>*/}
+                        {/*<h2 className="swipercontent-item">{item.title}</h2*/}
                         <h1 className="swipercontent-title text-3xl">{decodedproject!.title[index]}</h1>
                         <div className='swipercontent-item swipercontent-imagebox'>
                          <img className="swipercontent-img" src={`${decodedproject!.imgsURL[index]}`}></img> 
