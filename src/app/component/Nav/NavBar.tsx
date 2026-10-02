@@ -95,7 +95,7 @@ export default Navbar
 const SignIn = () => {
   return (
     <Link
-      href="/auth/SignIn"
+      href="/auth/sign-in"
       className={cn(
         buttonVariants({ variant: "ghost", size: "default" }),
         "flex items-center gap-2 px-0"

@@ -6,7 +6,7 @@ import { AuthView } from "@neondatabase/auth-ui";
 
 const allowedAuthViews = [
   "sign-in",
-  //"sign-up",
+  "sign-up",
   "reset-password",
   "sign-out",
   "callback",

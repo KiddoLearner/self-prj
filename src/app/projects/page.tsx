@@ -252,7 +252,7 @@ const PressToProject = ({projectname,}: {projectname: string;}) => {
     )}
   >
     <Sprout className="w-4 h-4" />
-    <span className="hidden lg:inline underline">Press to View {projectname}</span>
+    <span className="lg:inline underline">Press to View {projectname}</span>
   </Link>
   );
 }
