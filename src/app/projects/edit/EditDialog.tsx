@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { editProject, getProjectByName } from '../../api/actions/projects.action';
+import { editProject, getProjectByName, type EditProjectData } from '../../api/actions/projects.action';
 
 
 import {
@@ -303,7 +303,7 @@ function EditDialog({pages}:pageProps) {
             "請確保所有分頁都有成功上傳圖片。",
           );
         }
-        const projectData: ProjectPages = {
+        const projectData: EditProjectData = {
           name: projectName.trim(),
           demoURL: demoURL.trim(),
           gitHubURL: gitHubURL.trim(),
